@@ -1,5 +1,6 @@
 function setVariables(){
     const selectID = document.getElementById('backID');
+    selectID.addEventListener('change',changeBackground);
 }
 
 function changeBackground() {
